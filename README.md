@@ -1,6 +1,7 @@
 # Cardiology RAG – Retrieval-Augmented Generation with PDFs
 
-This project demonstrates how to build a **Retrieval-Augmented Generation (RAG) pipeline** for question answering on a collection of **cardiology research articles in PDF format**.  
+This project demonstrates how to build a **Retrieval-Augmented Generation (RAG) pipeline** for question answering on a collection of **cardiology research articles in PDF format**. 
+Full Linkedin article at [Building a Retrieval-Augmented Generation (RAG) System for Cardiology Research: A Step-by-Step Guide](https://www.linkedin.com/pulse/building-retrieval-augmented-generation-rag-system-cardiology-rego-rrzvf)
 
 The system uses **LangChain**, **ChromaDB**, and a **local Hugging Face model** (Qwen-7B-Instruct by default) to retrieve relevant text chunks and generate grounded answers.
 
