@@ -96,7 +96,7 @@ from langchain.chains import create_retrieval_chain
 # 1) Build the retriever from the vector store (top-4 parts)
 retriever = db.as_retriever(search_kwargs={"k": 4})
 
-# 2) Prompt NEEDS to have context (where the recovered parets are "stuffed")
+# 2) Prompt NEEDS to have context (where the recovered parts are "stuffed")
 prompt = ChatPromptTemplate.from_template(
     "Answer ONLY with facts from the context below.\n\n{context}\n\nQuestion: {input}"
 )
