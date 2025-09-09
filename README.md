@@ -1,4 +1,4 @@
-# 🫀 Cardiology RAG – Retrieval-Augmented Generation with PDFs
+# Cardiology RAG – Retrieval-Augmented Generation with PDFs
 
 This project demonstrates how to build a **Retrieval-Augmented Generation (RAG) pipeline** for question answering on a collection of **cardiology research articles in PDF format**.  
 
